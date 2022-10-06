@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/space_small"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:hint="@string/edit_hint"
         />
     <EditText
@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/space_medium"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:hint="@string/edit_hint"
         />
     <Button
@@ -48,6 +48,12 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/space_medium"
         android:text="@string/btn_divide"/>
+    <Button
+        android:id="@+id/btnMod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_medium"
+        android:text="@string/btn_mod"/>
     <TextView
         android:id="@+id/textResult"
         android:layout_width="match_parent"

@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">SimpleCalculator</string>
-    <string name="edit_hint">정수입력</string>
+    <string name="edit_hint">실수입력</string>
     <string name="btn_plus">더하기</string>
     <string name="btn_minus">빼기</string>
     <string name="btn_multi">곱하기</string>
     <string name="btn_divide">나누기</string>
+    <string name="btn_mod">나머지</string>
     <string name="text_result">계산결과:</string>
 </resources>
